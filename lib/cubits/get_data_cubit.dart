@@ -37,9 +37,7 @@ class GetDataCubit extends Cubit<GetDataState> {
     try {
       // Find the station matching the stationName
       final station = stationDetails.firstWhere(
-        (station) => station.stationName == stationName,
-       
-      );
+        (station) => station.stationName == stationName,);
 
       if (station.buses != null) {
         buses = station.buses!; // Get the list of buses for the selected station
