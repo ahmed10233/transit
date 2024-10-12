@@ -1,0 +1,27 @@
+{
+  "proceed": "proceed",
+  "hello_there": "Hello There",
+  "dear_gust": "Dear Guest",
+  "en": "EN",
+  "bus_time": "Bus Timetable",
+  "touristic_sites": "Touristic Sites",
+  "show_map": "Show map",
+  "time_info": "Know When\nThe Bus Will Arrive",
+  "map_info": "Show The Bus\nRoadmap To Know Your\nTrack",
+  "tour_info": "Get To Know All\nThe Stations Around You",
+  "trans": "Powered By Trans IT",
+  "welcome_abrod": "Welcome Aboard !",
+  "here_is": "Here’s Your Bus Timeline.",
+  "bus_Number": "Bus Number",
+  "time": "Time",
+  "bus_time_line": "Bus Timeline",
+  "choose": "Choose a Starting Location...",
+  "search": "Search",
+  "transit": "Transportation information technology",
+  "select_station": "Select a Station",
+  "bus_num": "Bus Number",
+  "bus_time": "Bus Time",
+  "bus_line": "Bus Line",
+  "please_select_station": "Please Select Station"
+
+}
