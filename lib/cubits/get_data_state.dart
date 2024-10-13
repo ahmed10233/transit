@@ -13,8 +13,9 @@ class SuccessGet extends GetDataState {
 
 class SuccessGetBuses extends GetDataState {
   final List<Buses> buses;
+   // Add this field to hold the departure times
 
-  SuccessGetBuses(this.buses);
+  SuccessGetBuses(this.buses,);
 }
 
 class FailedGet extends GetDataState {

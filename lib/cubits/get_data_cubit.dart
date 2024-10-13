@@ -5,6 +5,7 @@ import 'package:meta/meta.dart';
 import 'package:task_one/models/BusModel.dart';
 
 part 'get_data_state.dart';
+
 class GetDataCubit extends Cubit<GetDataState> {
   GetDataCubit() : super(GetDataInitial());
 
@@ -40,7 +41,8 @@ class GetDataCubit extends Cubit<GetDataState> {
         (station) => station.stationName == stationName,);
 
       if (station.buses != null) {
-        buses = station.buses!; // Get the list of buses for the selected station
+        buses = station.buses!;
+    // Get the list of buses for the selected station
         emit(SuccessGetBuses(buses)); // Emit the buses state
       } else {
         emit(FailedGet(errorMessage: 'No buses available for the selected station.'));
